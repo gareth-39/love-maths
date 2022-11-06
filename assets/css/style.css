@@ -1,5 +1,4 @@
-
-body {
+ody {
     background-color: white;
     font-family: "Raleway", sans-serif;
     color: #445361;
@@ -109,13 +108,12 @@ body {
     margin: 0 30px;
     transition: all 0.5s;
 }
-
-.btn--big::after{
+.btn--big::after {
     content: attr(data-type);
     font-size: 1rem;
     color: #445361;
     position: relative;
-    left: -0.5em;
+    left: 0.3rem;
 }
 
 .btn--blue {
